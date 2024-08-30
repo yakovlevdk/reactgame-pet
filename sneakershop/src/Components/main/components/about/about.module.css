@@ -1,0 +1,30 @@
+.about_items {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about_item {
+  margin-right: 30px;
+}
+
+.about_item_header {
+  color: #ffff;
+  margin-left: 65px;
+}
+
+.about_item_box {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 70px;
+  background-color: #19024f;
+  border-radius: 50px;
+}
+
+.about_item_span {
+  color: white;
+  font-size: 25px;
+}

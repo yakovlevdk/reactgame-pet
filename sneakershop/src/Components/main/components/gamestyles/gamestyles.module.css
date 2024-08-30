@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.styles_of_games {
+  display: flex;
+  justify-content: center;
+}
+
+.style_header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.style_item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px; /* Убираем отступ сверху, он теперь будет через слайдер */
+  max-width: 300px;
+  height: 110px;
+  background-color: #15174b;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.style_item:hover {
+  transform: scale(1.05);
+  background-color: #6f01d3;
+}
+.style_item_head {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.style_item_span {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  color: #5c5e99;
+  margin-top: 10px;
+}
+
+.style_button {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 35px;
+  background-color: #6f01d3;
+  color: white;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  transition: hover 0.3s ease;
+}
+.style_button:hover {
+  background-color: #5501af;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}

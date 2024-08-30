@@ -1,0 +1,65 @@
+.news h1 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.new {
+  cursor: pointer;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  max-height: 400px;
+  min-height: 400px;
+  border-radius: 12px;
+  /* background-color: white; */
+  transition: transform 0.3s ease;
+}
+
+.new:hover {
+  transform: scale(1.05);
+}
+
+.new:hover .new_text-container h4 {
+  color: #6f01d3;
+}
+.new_img-container {
+  border-radius: 12px;
+  background-color: aqua;
+  max-width: 450px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.new_img-container img {
+  border-radius: 8px;
+}
+.slider-container {
+  margin: 0px 155px;
+}
+
+.new_text-container {
+  color: white;
+  margin-left: 20px;
+}
+.new_text-container p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #8889a4;
+}
+
+.new_button {
+  margin-top: 40px;
+  background-color: #6f01d3;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.new_button-container {
+  text-align: center;
+}

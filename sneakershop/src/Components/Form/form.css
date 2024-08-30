@@ -1,0 +1,38 @@
+.form-register {
+  display: flex;
+  flex-direction: row;
+}
+.form-register input {
+  padding: 15px;
+  margin-right: 25px;
+  border-radius: 50px;
+  background-color: #15174b;
+  font-family: "Montserrat";
+}
+
+.form-register input {
+  padding: 15px;
+  margin-right: 25px;
+  border-radius: 50px;
+  background-color: #15174b;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.form-register button {
+  font-family: "Montserrat";
+  /* font-weight: bold; */
+  margin-top: 35px;
+  background-color: #6f01d3;
+  color: white;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.form-register input:focus {
+  border: 2px solid #6f01d3;
+}

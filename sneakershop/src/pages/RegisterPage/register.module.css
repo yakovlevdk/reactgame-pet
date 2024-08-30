@@ -1,0 +1,30 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.register-container span {
+  margin-top: 30px;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 20px;
+}
+
+.register-container a {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  color: #6f01d3;
+  font-size: 18px;
+}
+
+.register-container a:hover {
+  color: white;
+}
